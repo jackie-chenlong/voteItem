@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+		<title>我的页面</title>
+		<link rel="stylesheet" href="../style/weui.css" />
+		<link rel="stylesheet" href="../css/myPage.css?rev=e5de10a7d14d7b554200b3fcf1620f93" />
+	</head>
+
+	<body>
+		<div id="titleImage"><img src="../images/title.jpg" /> </div>
+		<div id="voteInfo">
+			<div id="visit">
+				<div id="visit_info">
+					<div id="visit_image"><img src='../images/hotIssue.png' /></div>
+					<span>点击量</span>
+				</div>
+				<div id="visit_num">12312</div>
+			</div>
+			<div id="sort">
+				<div id="sort_info">
+					<div id="sort_image"><img src="../images/ranked.png" /></div>
+					<span>排名</span>
+				</div>
+				<div id="sort_num">1</div>
+			</div>
+		</div>
+		<div id="detailedInfo">
+			<div id="description">
+				<div id="personNum">18号选手</div>
+				<div id="personName">jackie</div>
+			</div>
+			<ul>
+				<li><img src='../images/player.png' /></li>
+				<li><img src='../images/player.png' /></li>
+				<li><span id='voteNum'>100票</span></li>
+				<li><div id='details'><span>详情</span></div></li>
+			</ul>
+		</div>
+		<div id="loadingToast" class="weui_loading_toast" style="display:none;">
+			<div class="weui_mask_transparent"></div>
+			<div class="weui_toast">
+				<div class="weui_loading">
+					<div class="weui_loading_leaf weui_loading_leaf_0"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_1"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_2"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_3"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_4"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_5"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_6"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_7"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_8"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_9"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_10"></div>
+					<div class="weui_loading_leaf weui_loading_leaf_11"></div>
+				</div>
+				<p class="weui_toast_content">数据加载中</p>
+			</div>
+		</div>
+		<div class="weui_dialog_alert" id="dialog2" style="display: none;">
+			<div class="weui_mask"></div>
+			<div class="weui_dialog">
+				<div class="weui_dialog_hd"><strong class="weui_dialog_title">提示</strong></div>
+				<div class="weui_dialog_bd">出现错误</div>
+				<div class="weui_dialog_ft">
+					<a href="javascript:;" class="weui_btn_dialog primary">确定</a>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-default navbar-fixed-bottom" id="bottom">
+			<div id="homePage">
+				<img src="../images/homePage.png" />
+				<div><span>主页</span></div>
+			</div>
+			<div id="signUp">
+				<img src="../images/signUp.png" />
+				<div><span>报名</span></div>
+			</div>
+			<div id="search">
+				<img src="../images/search.png" />
+				<div><span id="search_bd">搜索</span></div>
+			</div>
+			<div id="ranked">
+				<img src="../images/ranked.png" />
+				<div><span>排行</span></div>
+			</div>
+		</nav>
+		<script type="text/javascript" src="../js/zepto.min.js"></script>
+		<script type="text/javascript" src="../js/weapp.js?rev=59ed1923067791d1675c6ff2658e362d"></script>
+		<script type="text/javascript" src="../js/myPage.js?rev=c5478d50e4550cb00c9b5332c6292582"></script>
+	</body>
+
+</html>

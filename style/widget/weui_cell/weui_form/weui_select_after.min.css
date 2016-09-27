@@ -1,0 +1,5 @@
+/*!
+ * weVote v0.1.0 ()
+ * Copyright 2016 mescloud, Inc.
+ * Licensed under the MIT license
+ */.weui_cell_select{padding:0}.weui_cell_select .weui_select{padding-right:30px}.weui_cell_select .weui_cell_bd:after{content:" ";display:inline-block;-webkit-transform:rotate(45deg);transform:rotate(45deg);height:6px;width:6px;border-width:2px 2px 0 0;border-color:#c8c8cd;border-style:solid;position:relative;top:-2px;position:absolute;top:50%;right:15px;margin-top:-3px}.weui_select{-webkit-appearance:none;border:0;outline:0;background-color:transparent;width:100%;font-size:inherit;height:44px;line-height:44px;position:relative;z-index:1}.weui_select,.weui_select_after{padding-left:15px}.weui_select_after .weui_select{padding-left:0}

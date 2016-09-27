@@ -1,0 +1,13 @@
+/*!
+ * weVote v0.1.0 ()
+ * Copyright 2016 mescloud, Inc.
+ * Licensed under the MIT license
+ */
+.weui_btn_disabled {
+  color: rgba(255, 255, 255, 0.6);
+}
+.weui_btn_disabled.weui_btn_default {
+  color: #C9C9C9;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlL3dpZGdldC93ZXVpX2J1dHRvbi93ZXVpX2J0bl9kaXNhYmxlZC5sZXNzIiwic3R5bGUvd2lkZ2V0L3dldWlfYnV0dG9uL3dldWlfYnRuX2Rpc2FibGVkLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7OztBQUVBO0VBQ0ksZ0NBQUE7Q0NESDtBREVHO0VBQ0ksZUFBQTtDQ0FQIiwiZmlsZSI6InN0eWxlL3dpZGdldC93ZXVpX2J1dHRvbi93ZXVpX2J0bl9kaXNhYmxlZC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwiLi4vLi4vYmFzZS9mblwiO1xuXG4ud2V1aV9idG5fZGlzYWJsZWQge1xuICAgIGNvbG9yOiBAd2V1aUJ0bkRpc2FibGVkRm9udENvbG9yO1xuICAgICYud2V1aV9idG5fZGVmYXVsdCB7XG4gICAgICAgIGNvbG9yOiBAd2V1aUJ0bkRlZmF1bHREaXNhYmxlZEZvbnRDb2xvcjtcbiAgICB9XG59XG4iLCIud2V1aV9idG5fZGlzYWJsZWQge1xuICBjb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjYpO1xufVxuLndldWlfYnRuX2Rpc2FibGVkLndldWlfYnRuX2RlZmF1bHQge1xuICBjb2xvcjogI0M5QzlDOTtcbn1cbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */

@@ -1,0 +1,5 @@
+/*!
+ * weVote v0.1.0 ()
+ * Copyright 2016 mescloud, Inc.
+ * Licensed under the MIT license
+ */.weui_mask{background:rgba(0,0,0,.6)}.weui_mask,.weui_mask_transition,.weui_mask_transparent{position:fixed;z-index:1;width:100%;height:100%;top:0;left:0}.weui_mask_transition{display:none;background:transparent;-webkit-transition:background .3s;transition:background .3s}.weui_fade_toggle{background:rgba(0,0,0,.6)}
