@@ -5,10 +5,10 @@ var detailedInfo = {
 	animateTime:'',
 	$play:'',
 	init: function() {},
-	bindEvent: function() {},
+	bindEvent: function() {},//绑定的点击事件
 	acquireActivity: function() {},
 	acquireActivity_callback: function(responseData) {},
-	acquireWorkInfo: function() {},
+	acquireWorkInfo: function() {},//获取详细活动信息
 	acquireWorkInfo_callback: function(responseData) {},
 	getQueryString: function(name) {},
 	voteAdd: function() {},

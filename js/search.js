@@ -6,14 +6,14 @@ var searchbar = {
 	myScroll: "",
 	pageIndex: 1,
 	init: function() {},
-	bindEvent: function() {},
-	scrollEvent: function() {},
+	bindEvent: function() {},//绑定的点击事件
+	scrollEvent: function() {},//滚动加载
 	pageClickEvent: function() {},
-	acquireActivity: function() {},
+	acquireActivity: function() {},//获取活动信息
 	acquireActivity_callback: function(responseData) {},
-	searchData: function() {},
+	searchData: function() {},//查询请求
 	searchData_callback: function(responseData) {},
-	voteAdd: function() {},
+	voteAdd: function() {},//投票请求
 	voteAdd_callback: function(responseData) {}
 }
 searchbar.init = function() {
