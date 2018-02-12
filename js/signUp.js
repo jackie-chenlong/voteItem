@@ -31,7 +31,6 @@ var signUp = {
 signUp.init = function() {
 	signUp.bindEvent();
 	signUp.alertEvent();
-//	signUp.uploadImage();
 	signUp.acquireTagList();
 	$("#homePage").find('img').attr('src', '../images/homePage.png');
 	$('#ranked').find('img').attr('src', '../images/rank.png');
