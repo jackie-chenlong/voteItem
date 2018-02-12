@@ -15,20 +15,17 @@ var signUp = {
 	animateTime:'',
 	$play:'',
 	init: function() {},
-	bindEvent: function() {},
-	alertEvent: function() {},
-	uploadImage: function() {},
+	bindEvent: function() {},//绑定的点击事件
+	alertEvent: function() {},//弹窗
 	getQueryString: function(name) {},
-	acquireActivity: function() {},
+	acquireActivity: function() {},//获取活动信息
 	acquireActivity_callback: function(responseData) {},
-	acquireTagList: function() {},
+	acquireTagList: function() {},//获取类别列表
 	acquireTagList_callback: function(responseData) {},
-	downloadData: function() {},
+	downloadData: function() {},//获取按钮的状态
 	downloadData_callback: function(responseData) {},
-	acquireData: function() {},
-	saveImage: function() {},
-	saveImage_callback: function(responseData) {},
-	submitData: function() {},
+	acquireData: function() {},//获取注册信息
+	submitData: function() {},//提交用户注册信息
 	submitData_callback: function(responseData) {}
 }
 signUp.init = function() {
