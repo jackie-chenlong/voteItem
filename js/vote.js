@@ -14,21 +14,21 @@ var vote = {
 	$play:"",
 	activityData: {},
 	init: function() {},
-	scrollEvent: function() {},
-	bindEvent: function() {},
+	scrollEvent: function() {},//滚动加载事件
+	bindEvent: function() {},//绑定的点击事件
 	countTime: function() {},
-	acquireActivity: function() {},
-	acquireActivity_callback: function(responseData) {},
+	acquireActivity: function() {},//获取活动信息
+	acquireActivity_callback: function(responseData) {},//ajax获取活动信息的回调函数
 	fillInActivity: function() {},
-	acquireWorkList: function() {},
-	acquireWorkList_callback: function(responseData) {},
-	acquireRankedWorks: function() {},
-	acquireRankedWorks_callback: function(responseData) {},
-	acquireTagWorkList: function() {},
-	acquireTagWorkList_callback: function(responseData) {},
+	acquireWorkList: function() {},//获取用户信息列表
+	acquireWorkList_callback: function(responseData) {},//ajax获取用户信息列表的回调函数
+	acquireRankedWorks: function() {},//获取排序的用户信息列表
+	acquireRankedWorks_callback: function(responseData) {},//ajax获取排序的用户信息列表的回调函数
+	acquireTagWorkList: function() {},//获取某一类别的用户信息列表
+	acquireTagWorkList_callback: function(responseData) {},//ajax获取某一类别的用户信息列表的回调函数
 	acquireRankedTagWorkList: function() {},
 	acquireRankedTagWorkList_callback: function(responseData) {},
-	voteAdd: function() {},
+	voteAdd: function() {},//投票请求
 	voteAdd_callback: function(responseData) {},
 }
 
